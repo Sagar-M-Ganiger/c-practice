@@ -3,13 +3,12 @@
 # Date: February 23, 2026
 # Topics: Variables, Data Types, Strings, Lists, Tuples, Sets, Dictionaries
 
-print("=== PYTHON BASICS ===")
+print("PYTHON BASICS ")
 
 # 1. VARIABLES AND DATA TYPES
 name = "Sagar"  # String
 age = 20  # Integer
 height = 5.8  # Float
-is_student = True  # Boolean
 
 print(f"Name: {name}, Age: {age}, Height: {height}")
 print(f"Is Student: {is_student}")
@@ -63,24 +62,7 @@ print("Every 2nd:", numbers[::2])
 squares = [n**2 for n in range(1, 6)]
 print("Squares:", squares)
 
-# 5. TUPLES (Immutable lists)
-print("\n=== TUPLES ===")
-coordinates = (10, 20)
-print("Coordinates:", coordinates)
-print("X:", coordinates[0], "Y:", coordinates[1])
-
-# 6. SETS (Unique elements)
-print("\n=== SETS ===")
-unique_nums = {1, 2, 3, 3, 4, 5, 5}
-print("Set:", unique_nums)  # Duplicates removed
-
-set1 = {1, 2, 3}
-set2 = {3, 4, 5}
-print("Union:", set1 | set2)
-print("Intersection:", set1 & set2)
-print("Difference:", set1 - set2)
-
-# 7. DICTIONARIES (Key-Value Pairs)
+# 6. DICTIONARIES (Key-Value Pairs)
 print("\n=== DICTIONARIES ===")
 student = {
     "name": "Sagar",
@@ -124,4 +106,4 @@ print("Python instructor:", courses["python"]["instructor"])
 square_dict = {x: x**2 for x in range(1, 6)}
 print("Square dict:", square_dict)
 
-print("\n=== LEARNING COMPLETE ===")
+print("\n========LEARNING COMPLETE=======")
