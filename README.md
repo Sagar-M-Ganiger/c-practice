@@ -13,3 +13,6 @@ C programming practice and learning exercises
 ## Getting Started
 
 Clone this repository and explore the C programs to practice fundamental programming concepts.
+
+## Last Updated
+February 23, 2026
